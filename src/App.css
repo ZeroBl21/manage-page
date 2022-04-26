@@ -1,15 +1,41 @@
-body {
-  background-color: #282c34;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
+:root {
+  /* Primary */
+
+  --brightRed: hsl(12, 88%, 59%);
+  --darkBlue: hsl(228, 39%, 23%);
+
+  /* Neutral */
+
+  --grayishBlue: hsl(227, 12%, 61%);
+  --veryDarkblue: hsl(223, 12%, 13%);
+  --paleRed: hsl(13, 100%, 96%);
+  --lightGray: hsl(0, 0, 98%);
+
+  /* Font */
+  --fontSize: 16px;
 }
 
-a {
-  color: #61dafb;
+body {
+  min-height: 100vh;
+  background-color: var(--lightGray);
 }
 
 .App {
   text-align: center;
 }
 
+.btn {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: center;
+  width: 27px;
+  height: 27px;
+}
+
+.btn:hover {
+  opacity: .75;
+}
