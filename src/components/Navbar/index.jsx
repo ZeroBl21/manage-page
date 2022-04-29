@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <header>
+    <header className="section__center">
       <div className="header__logo">
         <img src={logo} alt="app logo"/>
       </div>
@@ -26,7 +26,6 @@ const Navbar = () => {
           <li><a href="#community">Community</a></li>
         </ul>
       </nav>
-      {/* <button className="prueba" >Get Started</button> */}
       <button className={`btn header__menu ${visible ? "close" : ""}`} onClick={handleClick}>Menu</button>
       <Button text="Get Started" hide="hide"/>
     </header>

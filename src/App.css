@@ -39,3 +39,9 @@ body {
 .btn:hover {
   opacity: .75;
 }
+
+.section__center {
+  max-width: min(100%, 1440px);
+  margin: 0 auto;
+}
+
