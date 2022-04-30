@@ -1,0 +1,9 @@
+.aboutus {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutus__list {
+  flex: 1;
+  min-width: min(350px, 90%);
+}

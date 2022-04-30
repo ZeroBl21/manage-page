@@ -43,5 +43,6 @@ body {
 .section__center {
   max-width: min(100%, 1440px);
   margin: 0 auto;
+  padding-block: 2rem;
 }
 

@@ -1,0 +1,40 @@
+.article {
+  text-align: center;
+  padding: 1rem;
+  min-width: min(350px, 90%);
+  flex: 1;
+}
+
+.article__title {
+  color: var(--darkBlue);
+  font-size: clamp(2.3rem, 5vw, 4rem);
+}
+
+.article__text {
+  line-height: 1.6;
+  max-width: 33ch;
+  color: var(--grayishBlue);
+  margin: 0 auto 2rem;
+}
+
+.large {
+  font-size: clamp(2.3rem, 5vw, 4rem);
+}
+
+.medium {
+  font-size: clamp(1.7rem, 5vw, 2rem);
+}
+
+.small {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 45em) {
+  .article {
+    text-align: left;
+  }
+
+  .article__text {
+    margin: 0 0 2rem;
+  }
+}
