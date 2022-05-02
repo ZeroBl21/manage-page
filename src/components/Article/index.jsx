@@ -1,9 +1,9 @@
 import React from "react";
 import "./Article.css";
 
-const Article = ({ title, text, large, small, children }) => {
+const Article = ({ title, text, large, small, center, children }) => {
   return (
-    <article className="article">
+    <article className={`article ${center ? "center" : ""}`}>
       <h2
         className={`
         article__title 
@@ -12,7 +12,7 @@ const Article = ({ title, text, large, small, children }) => {
       >
         {title}
       </h2>
-      <p className="article__text">{text}</p>
+      <p className={`article__text ${center ? "center" : ""}`}>{text}</p>
       {children}
     </article>
   );
