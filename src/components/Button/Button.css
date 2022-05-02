@@ -1,7 +1,8 @@
 .custom__button {
   background-color: var(--brightRed);
-  color: #fff;
+  color: var(--lightGray);
   font-size: .75rem;
+  font-weight: 700;
   border: 0;
   border-radius: 2rem;
   padding: .75rem 2rem;
@@ -10,4 +11,10 @@
 
 .custom__button:hover {
   opacity: .75;
+}
+
+.inverted {
+  background-color: var(--lightGray);
+  color: var(--brightRed);
+  box-shadow: 0px 6px 12px -5px  var(--paleRed);
 }
