@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Pricing from "./container/Pricing";
 import AboutUs from "./container/AboutUs";
+import Community from "./container/Community";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Pricing />
       <AboutUs />
+      <Community />
     </>
   );
 }
