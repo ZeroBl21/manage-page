@@ -8,7 +8,7 @@ const Button = ({ text, handleClick, hide, inverted }) => {
       className={`
         custom__button 
         ${hide ? "hide" : ""}
-        ${inverted ? "alt" : ""}
+        ${inverted ? "inverted" : ""}
       `}
       onClick={handleClick}
     >
