@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Pricing from "./container/Pricing";
 import AboutUs from "./container/AboutUs";
 import Community from "./container/Community";
+import Divider from "./container/Divider"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Pricing />
       <AboutUs />
       <Community />
+      <Divider />
     </>
   );
 }
