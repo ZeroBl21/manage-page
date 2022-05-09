@@ -26,7 +26,8 @@
     margin-top: 8rem;
 
     background-image: url("../../assets/bg-simplify-section-desktop.svg");
-    background-position: cover;
+    background-size: cover;
+    background-position: center;
   }
 
   .divider > h2 {
